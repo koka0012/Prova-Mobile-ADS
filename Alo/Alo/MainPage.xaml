@@ -5,10 +5,9 @@
              x:Class="Alo.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Quem Sou" Clicked="NavegarParaAbout"/>
+        <Button Text="Site" Clicked="AbrirSite"/>
+        <Button Text="Diciplinas" Clicked="Materias"/>
     </StackLayout>
 
 </ContentPage>
